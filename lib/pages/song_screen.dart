@@ -37,13 +37,18 @@ class _SongScreenState extends State<SongScreen> {
     if (v != null) {
       previous = jsonDecode(v);
     }
+    var val = previous.where((element) => element['title'] == newSong['title']);
     if (previous.length == 10) {
-      previous.removeAt(9);
-      previous.insert(0, newSong);
+      print("-------------${v.toString()}");
+      if (val.isEmpty) {
+        previous.removeAt(9);
+        previous.insert(0, newSong);
+      }
     } else {
-      previous.insert(0, newSong);
+      if (val.isEmpty) {
+        previous.insert(0, newSong);
+      }
     }
-    print("-------------${previous.length}");
     box.put('Previous', jsonEncode(previous));
   }
 
@@ -152,15 +157,23 @@ class _SongScreenState extends State<SongScreen> {
                   ? FadeInUp(
                       child: TextButton(
                         onPressed: () {
-                          Navigator.pop(context);
+                          Navigator.pop(context, true);
                         },
-                        child: Text(
-                          "Try Again",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w700,
-                            fontSize: 15.sp,
-                          ),
+                        child: Row(
+                          //crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.refresh_sharp, color: Colors.white),
+                            SizedBox(width: 5.w),
+                            Text(
+                              "Try Again",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.w700,
+                                fontSize: 15.sp,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     )
@@ -292,6 +305,8 @@ class _SongScreenState extends State<SongScreen> {
                                 decoration: const BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage("assets/play.png"),
+                                    /*colorFilter: ColorFilter.mode(
+                                        Colors.grey[800], BlendMode.modulate),*/
                                   ),
                                 ),
                                 child: Icon(

@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:2:3-40
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:5:5-9:15
+intent#action:name:android.intent.action.VIEW
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:6:9-8:18
+action#android.intent.action.VIEW
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:7:13-65
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml:7:21-62
+uses-sdk
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_downloader-1.8.0+1\android\src\main\AndroidManifest.xml

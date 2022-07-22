@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "fr.skyost.rate_my_app",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.siznamco.music_finder"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:3:5-71
+11-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:3:22-68
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:8:5-79
+12-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:9:5-76
+13-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:10:5-67
+14-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:11:5-75
+15-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:11:22-72
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:12:5-80
+16-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:12:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:13:5-81
+17-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:14:5-81
+18-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- https://developer.android.com/training/package-visibility -->
+19-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:15:5-79
+19-->[:acr_cloud_sdk] D:\Flutter Projects\Music-Finders\build\acr_cloud_sdk\intermediates\library_manifest\release\AndroidManifest.xml:15:22-76
+20    <queries>
+20-->[:flutter_downloader] D:\Flutter Projects\Music-Finders\build\flutter_downloader\intermediates\library_manifest\release\AndroidManifest.xml:8:5-12:15
+21        <intent>
+21-->[:flutter_downloader] D:\Flutter Projects\Music-Finders\build\flutter_downloader\intermediates\library_manifest\release\AndroidManifest.xml:9:9-11:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[:flutter_downloader] D:\Flutter Projects\Music-Finders\build\flutter_downloader\intermediates\library_manifest\release\AndroidManifest.xml:10:13-65
+22-->[:flutter_downloader] D:\Flutter Projects\Music-Finders\build\flutter_downloader\intermediates\library_manifest\release\AndroidManifest.xml:10:21-62
+23        </intent>
+24    </queries> <!-- Permission will be merged into the manifest of the hosting app. -->
+25    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:8:3-74
+26-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:8:20-72
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+27-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+28-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+29
+30    <application
+31        android:name="android.app.Application"
+31-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:7:9-42
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\b9a960218f5163997c0fdfa3d3078c0e\core-1.7.0\AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:8:9-43
+34        android:label="Music Finder" >
+34-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:6:9-37
+35        <activity
+35-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:9:9-29:20
+36            android:name="com.siznamco.music_finder.MainActivity"
+36-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:10:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:14:13-163
+38            android:exported="true"
+38-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:11:13-36
+39            android:hardwareAccelerated="true"
+39-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:15:13-47
+40            android:launchMode="singleTop"
+40-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:12:13-43
+41            android:theme="@style/LaunchTheme"
+41-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:13:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:16:13-55
+43
+44            <!--
+45                 Specifies an Android theme to apply to this Activity as soon as
+46                 the Android process has started. This theme is visible to the user
+47                 while the Flutter UI initializes. After that, this theme continues
+48                 to determine the Window background behind the Flutter UI.
+49            -->
+50            <meta-data
+50-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:21:13-24:17
+51                android:name="io.flutter.embedding.android.NormalTheme"
+51-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:22:15-70
+52                android:resource="@style/NormalTheme" />
+52-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:23:15-52
+53
+54            <intent-filter>
+54-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:25:13-28:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:26:17-68
+55-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:26:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:27:17-76
+57-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:27:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+62            android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+62-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:31:12-77
+63            android:authorities="com.siznamco.music_finder.flutter_downloader.provider"
+63-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:32:12-78
+64            android:exported="false"
+64-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:33:12-36
+65            android:grantUriPermissions="true" >
+65-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:34:12-46
+66            <meta-data
+66-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:35:12-37:56
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:36:16-66
+68                android:resource="@xml/provider_paths" />
+68-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:37:16-54
+69        </provider>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:41:9-43:33
+75            android:name="flutterEmbedding"
+75-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:42:13-44
+76            android:value="2" />
+76-->D:\Flutter Projects\Music-Finders\android\app\src\main\AndroidManifest.xml:43:13-30
+77
+78        <activity
+78-->[:url_launcher_android] D:\Flutter Projects\Music-Finders\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+79            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+79-->[:url_launcher_android] D:\Flutter Projects\Music-Finders\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+80            android:exported="false"
+80-->[:url_launcher_android] D:\Flutter Projects\Music-Finders\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+81            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+81-->[:url_launcher_android] D:\Flutter Projects\Music-Finders\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+82
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+84            android:name="androidx.window.extensions"
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+87            android:name="androidx.window.sidecar"
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+88            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+89        <activity
+89-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:5-271
+90            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+90-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:15-102
+91            android:enabled="false"
+91-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:103-126
+92            android:exported="false"
+92-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:127-151
+93            android:launchMode="singleInstance"
+93-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:204-239
+94            android:process=":playcore_missing_splits_activity"
+94-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:152-203
+95            android:stateNotNeeded="true" />
+95-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:12:240-269
+96        <activity
+96-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:5-226
+97            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+97-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:15-95
+98            android:enabled="false"
+98-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:96-119
+99            android:exported="false"
+99-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:120-144
+100            android:stateNotNeeded="true"
+100-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:145-174
+101            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+101-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:13:175-224
+102        <service
+102-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:16:5-145
+103            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+103-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:16:14-95
+104            android:enabled="false"
+104-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:16:96-119
+105            android:exported="true" />
+105-->[com.google.android.play:core:1.8.0] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\fe792792f2ff8b084261266218f8c987\jetified-core-1.8.0\AndroidManifest.xml:16:120-143
+106
+107        <provider
+107-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+108            android:name="androidx.startup.InitializationProvider"
+108-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+109            android:authorities="com.siznamco.music_finder.androidx-startup"
+109-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+110            android:exported="false" >
+110-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+111            <meta-data
+111-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+112                android:name="androidx.work.WorkManagerInitializer"
+112-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+113                android:value="androidx.startup" />
+113-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+114        </provider>
+115
+116        <service
+116-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+117            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+117-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+118            android:directBootAware="false"
+118-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+119            android:enabled="@bool/enable_system_alarm_service_default"
+119-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+120            android:exported="false" />
+120-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+121        <service
+121-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+122            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+122-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+124            android:enabled="@bool/enable_system_job_service_default"
+124-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+125            android:exported="true"
+125-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+127        <service
+127-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+128            android:name="androidx.work.impl.foreground.SystemForegroundService"
+128-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+129            android:directBootAware="false"
+129-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+130            android:enabled="@bool/enable_system_foreground_service_default"
+130-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+131            android:exported="false" />
+131-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+132
+133        <receiver
+133-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+134            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+134-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+135            android:directBootAware="false"
+135-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+136            android:enabled="true"
+136-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+137            android:exported="false" />
+137-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+138        <receiver
+138-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+139            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+139-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+141            android:enabled="false"
+141-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+142            android:exported="false" >
+142-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+143            <intent-filter>
+143-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+144                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+144-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+145                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+145-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+145-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+146            </intent-filter>
+147        </receiver>
+148        <receiver
+148-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+149            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+149-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+151            android:enabled="false"
+151-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+152            android:exported="false" >
+152-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+153            <intent-filter>
+153-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+154                <action android:name="android.intent.action.BATTERY_OKAY" />
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+154-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+155                <action android:name="android.intent.action.BATTERY_LOW" />
+155-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+155-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+156            </intent-filter>
+157        </receiver>
+158        <receiver
+158-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+159            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+159-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+161            android:enabled="false"
+161-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+162            android:exported="false" >
+162-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+163            <intent-filter>
+163-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+164                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+164-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+164-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+165                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+165-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+165-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+166            </intent-filter>
+167        </receiver>
+168        <receiver
+168-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+169            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+169-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+171            android:enabled="false"
+171-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+172            android:exported="false" >
+172-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+173            <intent-filter>
+173-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+174                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+174-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+174-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+178            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+178-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+180            android:enabled="false"
+180-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+183-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+184                <action android:name="android.intent.action.TIME_SET" />
+184-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+184-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+185                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+185-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+185-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+186            </intent-filter>
+187        </receiver>
+188        <receiver
+188-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+189            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+189-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+191            android:enabled="@bool/enable_system_alarm_service_default"
+191-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+192            android:exported="false" >
+192-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+193            <intent-filter>
+193-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+194                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+194-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+194-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+195            </intent-filter>
+196        </receiver>
+197        <receiver
+197-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+198            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+198-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+199            android:directBootAware="false"
+199-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+200            android:enabled="true"
+200-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+201            android:exported="true"
+201-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+202            android:permission="android.permission.DUMP" >
+202-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+203            <intent-filter>
+203-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+204                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+204-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+204-->[androidx.work:work-runtime:2.7.1] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\54150d832f66966ca3fadb99fface133\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+205            </intent-filter>
+206        </receiver>
+207
+208        <service
+208-->[androidx.room:room-runtime:2.2.5] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\5a9abbd9b8f0f835c4fddb4cf7ae6694\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+209            android:name="androidx.room.MultiInstanceInvalidationService"
+209-->[androidx.room:room-runtime:2.2.5] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\5a9abbd9b8f0f835c4fddb4cf7ae6694\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+210            android:directBootAware="true"
+210-->[androidx.room:room-runtime:2.2.5] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\5a9abbd9b8f0f835c4fddb4cf7ae6694\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+211            android:exported="false" />
+211-->[androidx.room:room-runtime:2.2.5] C:\Users\shahb\.gradle\caches\transforms-2\files-2.1\5a9abbd9b8f0f835c4fddb4cf7ae6694\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+212    </application>
+213
+214</manifest>

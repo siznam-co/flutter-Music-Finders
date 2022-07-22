@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chizi.acr_cloud_sdk" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:3:3-69
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:3:20-66
+8    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+8-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:4:3-77
+8-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:4:20-74
+9    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:5:3-74
+9-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:5:20-71
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:6:3-65
+10-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:6:20-62
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:7:3-73
+11-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:7:20-70
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:8:3-78
+12-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:8:20-75
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:9:3-79
+13-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:9:20-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:10:3-79
+14-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:10:20-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:11:3-77
+15-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:11:20-74
+16
+17</manifest>

@@ -1,0 +1,4 @@
+#Fri Jul 22 23:45:33 PKT 2022
+base.0=D\:\\Flutter Projects\\Music-Finders\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

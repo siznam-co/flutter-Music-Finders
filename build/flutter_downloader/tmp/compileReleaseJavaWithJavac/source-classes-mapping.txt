@@ -1,0 +1,28 @@
+vn/hunghd/flutterdownloader/TaskDbHelper.java
+ vn.hunghd.flutterdownloader.TaskDbHelper
+vn/hunghd/flutterdownloader/BuildConfig.java
+ vn.hunghd.flutterdownloader.BuildConfig
+vn/hunghd/flutterdownloader/TaskContract.java
+ vn.hunghd.flutterdownloader.TaskContract
+ vn.hunghd.flutterdownloader.TaskContract$TaskEntry
+vn/hunghd/flutterdownloader/TaskDao.java
+ vn.hunghd.flutterdownloader.TaskDao
+vn/hunghd/flutterdownloader/FlutterDownloaderPlugin.java
+ vn.hunghd.flutterdownloader.FlutterDownloaderPlugin
+vn/hunghd/flutterdownloader/DownloadTask.java
+ vn.hunghd.flutterdownloader.DownloadTask
+vn/hunghd/flutterdownloader/DownloadedFileProvider.java
+ vn.hunghd.flutterdownloader.DownloadedFileProvider
+vn/hunghd/flutterdownloader/DownloadStatus.java
+ vn.hunghd.flutterdownloader.DownloadStatus
+vn/hunghd/flutterdownloader/DownloadWorker.java
+ vn.hunghd.flutterdownloader.DownloadWorker
+ vn.hunghd.flutterdownloader.DownloadWorker$1
+ vn.hunghd.flutterdownloader.DownloadWorker$2
+ vn.hunghd.flutterdownloader.DownloadWorker$3
+ vn.hunghd.flutterdownloader.DownloadWorker$4
+ vn.hunghd.flutterdownloader.DownloadWorker$CallbackUri
+vn/hunghd/flutterdownloader/IntentUtils.java
+ vn.hunghd.flutterdownloader.IntentUtils
+vn/hunghd/flutterdownloader/FlutterDownloaderInitializer.java
+ vn.hunghd.flutterdownloader.FlutterDownloaderInitializer

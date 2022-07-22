@@ -33,15 +33,21 @@ class _HomePageState extends State<HomePage> {
               song: songManager.currentSong,
             ),
           ),
-        );
+        ).then((value) {
+          if (value != null) {
+            startRec(songManager);
+          }
+        });
       });
     }
   }
 
   bool checkConnection = false;
+
   @override
   Widget build(BuildContext context) {
     final songManager = context.watch<DeezerSongManager>();
+
     return Scaffold(
       //backgroundColor: const Color(0xff2C3137),
       appBar: AppBar(
@@ -58,52 +64,10 @@ class _HomePageState extends State<HomePage> {
         ),
         centerTitle: true,
       ),
-      /*drawer: Drawer(
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: [
-              DrawerHeader(
-                decoration: BoxDecoration(
-                  color: Colors.cyanAccent[700],
-                ),
-                child: const Text(
-                  'Welcome to Shazam',
-                  style: TextStyle(fontSize: 22),
-                ),
-              ),
-              ListTile(
-                leading: Icon(
-                  Icons.music_note_outlined,
-                ),
-                title: const Text('One'),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                leading: Icon(
-                  Icons.music_note_outlined,
-                ),
-                title: const Text('Two'),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-            ],
-          ),
-        ),*/
       body: SafeArea(
         child: Container(
           decoration: const BoxDecoration(
             color: Color(0xff17191D),
-            /*gradient: LinearGradient(
-                colors: [
-                  Color(0xff2C3137),
-                  Color(0xff17191D),
-                ],
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-              ),*/
           ),
           child: Stack(
             alignment: Alignment.center,
@@ -114,24 +78,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     GestureDetector(
                       onTap: () async {
-                        try {
-                          final result =
-                              await InternetAddress.lookup('google.com');
-                          if (result.isNotEmpty &&
-                              result[0].rawAddress.isNotEmpty) {
-                            songManager.startRecognizing();
-                          }
-                        } on SocketException catch (_) {
-                          print("Exception");
-                          return ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              behavior: SnackBarBehavior.floating,
-                              duration: Duration(milliseconds: 1000),
-                              content: Text("Connection not found...!"),
-                            ),
-                          );
-                        }
-                        return null;
+                        startRec(songManager);
                       },
                       child: !songManager.isRecognizing
                           ? FadeInUp(
@@ -190,21 +137,6 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-              /* Positioned(
-                  bottom: 4,
-                  left: 10,
-                  right: 10,
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 400),
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/listening.png"),
-                      ),
-                    ),
-                    width: songManager.isRecognizing ? 160 : 0,
-                    height: songManager.isRecognizing ? 160 : 0,
-                  ),
-                ),*/
               if (songManager.isRecognizing)
                 Positioned(
                   bottom: 100.h,
@@ -264,5 +196,23 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
     );
+  }
+
+  Future<void> startRec(songManager) async {
+    try {
+      final result = await InternetAddress.lookup('google.com');
+      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+        songManager.startRecognizing();
+      }
+    } on SocketException catch (_) {
+      print("Exception");
+      return ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          behavior: SnackBarBehavior.floating,
+          duration: Duration(milliseconds: 1000),
+          content: Text("Connection not found...!"),
+        ),
+      );
+    }
   }
 }

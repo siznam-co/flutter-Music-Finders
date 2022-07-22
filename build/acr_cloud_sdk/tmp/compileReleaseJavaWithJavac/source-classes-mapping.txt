@@ -1,0 +1,2 @@
+com/chizi/acr_cloud_sdk/BuildConfig.java
+ com.chizi.acr_cloud_sdk.BuildConfig

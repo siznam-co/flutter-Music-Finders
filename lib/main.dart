@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
         providers: [ChangeNotifierProvider(create: (_) => DeezerSongManager())],
         child: const MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Shazam Clone',
+          title: 'Music Finder',
           home: HomePage(),
         ),
       ),

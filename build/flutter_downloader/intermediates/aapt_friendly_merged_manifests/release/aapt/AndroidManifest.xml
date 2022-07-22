@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.hunghd.flutterdownloader" >
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <!-- https://developer.android.com/training/package-visibility -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+    </queries>
+
+</manifest>

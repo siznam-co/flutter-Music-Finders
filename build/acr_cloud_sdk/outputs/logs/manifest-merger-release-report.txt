@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:1:1-12:12
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:1:1-12:12
+	package
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:2:3-36
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:3:3-69
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:3:20-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:4:3-77
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:4:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:5:3-74
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:5:20-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:6:3-65
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:6:20-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:7:3-73
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:7:20-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:8:3-78
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:8:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:9:3-79
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:9:20-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:10:3-79
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:10:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:11:3-77
+	android:name
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml:11:20-74
+uses-sdk
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+		ADDED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\acr_cloud_sdk-2.0.1\android\src\main\AndroidManifest.xml

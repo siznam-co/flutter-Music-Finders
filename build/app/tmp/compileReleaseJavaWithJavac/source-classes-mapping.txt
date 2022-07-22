@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/siznamco/music_finder/BuildConfig.java
+ com.siznamco.music_finder.BuildConfig

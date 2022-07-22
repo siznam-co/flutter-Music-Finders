@@ -3,11 +3,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shazam_clone/models/deezer_song_manager.dart';
 import 'package:shazam_clone/pages/home_page.dart';
 
+Box box;
 Future<void> main() async {
+  await Hive.initFlutter();
   WidgetsFlutterBinding.ensureInitialized();
   await FlutterDownloader.initialize(
     debug:
@@ -15,6 +18,7 @@ Future<void> main() async {
     ignoreSsl:
         true, // option: set to false to disable working with http links (default: false)
   );
+  box = await Hive.openBox('PreviousSearches');
   runApp(MyApp());
 }
 
